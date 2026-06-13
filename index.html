@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Juster - BlueBixt Science Library</title>
+<meta charset="UTF-8">
+<title>Juster | BlueBixt Science Library</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="juster-website">
@@ -57,46 +58,38 @@ p, span, div {
   
     }
     </style>
-<script src="device.js"></script>
-<script src="source.src"></script>
-    
-</body>
-</html>
-<html lang="en">
-<head>
-    <title>Juster | BlueBixt Science Library</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>BlueBixt <span class="brand-name">Juster</span></h1>
+    <header class="app-header">
+        <div class="logo">Juster <span>Juster</span></div>
         <nav>
             <button class="nav-btn" onclick="window.location.href='guide.md'">User Guide</button>
             <button class="nav-btn" onclick="window.location.href='DOCS.md'">Technical Docs</button>
         </nav>
     </header>
-<header>
-    <h1 class="nunito-bold">BlueBixt Juster</h1>
-</header>
 
-<main>
-    <p class="nunito-regular">Interactive scientific computing environment.</p>
-</main>
-    
-    <main id="lab-container">
-        <!-- Cells will be generated here by source.src -->
-        <section class="welcome-box">
-            <h2>Welcome to Juster</h2>
-            <p>Interactive scientific computing environment.</p>
-            <button id="add-cell-btn" onclick="Juster.createCell()">+ New B-Cell</button>
+    <main class="workspace">
+        <section class="hero">
+            <h1>Advanced Scientific Simulation</h1>
+            <p>Integrated Environment for Data Accuracy and Research</p>
         </section>
+
+        <div id="lab-container">
+            </div>
+
+        <button id="add-cell-btn" onclick="Juster.createCell()">
+            + Initialize New B-Cell
+        </button>
     </main>
 
-    <footer>
-        <p>&copy; 2026 BlueBixt Science Library | Lead Developer: Rogge</p>
+    <footer class="app-footer">
+        <p><p>&copy; 2026 BlueBixt Science Library | Lead Developer: Rogge</p>
+ 
     </footer>
 
+    <script src="device.js"></script>
+    <script src="source.src"></script>
+</body>
+</html>
+    
 
 </body>
 </html>
