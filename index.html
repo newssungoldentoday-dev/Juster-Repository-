@@ -42,3 +42,36 @@
     <script src="source.src"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Juster | BlueBixt Science Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>BlueBixt <span class="brand-name">Juster</span></h1>
+        <nav>
+            <button class="nav-btn" onclick="window.location.href='guide.md'">User Guide</button>
+            <button class="nav-btn" onclick="window.location.href='DOCS.md'">Technical Docs</button>
+        </nav>
+    </header>
+
+    <main id="lab-container">
+        <!-- Cells will be generated here by source.src -->
+        <section class="welcome-box">
+            <h2>Welcome to Juster</h2>
+            <p>Interactive scientific computing environment.</p>
+            <button id="add-cell-btn" onclick="Juster.createCell()">+ New B-Cell</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BlueBixt Science Library | Lead Developer: Rogge</p>
+    </footer>
+
+    <script src="source.src"></script>
+</body>
+</html>
+
